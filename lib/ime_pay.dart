@@ -43,7 +43,7 @@ class ImePay {
       "amount": amount.toString(),
       "recording_service_url": recordingServiceUrl,
       "delivery_service_url": deliveryServiceUrl,
-      "env": environment.toString()
+      "env": environment.toString().split('.').last
     });
     _listenToPaymentResponse(onSuccess, onFailure);
   }
