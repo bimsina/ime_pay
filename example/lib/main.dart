@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
                   environment: ImePayEnvironment.TEST,
                   refId: 'TEST',
                 );
-                imePay.startPayment(onSuccess: (data) {
+                imePay.startPayment(onSuccess: (ImePaySuccessResponse data) {
                   print(data);
                 }, onFailure: (error) {
                   print(error);

@@ -30,7 +30,7 @@ class ImePay {
       this.environment = ImePayEnvironment.TEST});
 
   void startPayment({
-    Function(Map) onSuccess,
+    Function(ImePaySuccessResponse) onSuccess,
     Function(String) onFailure,
   }) async {
     _channel.invokeMethod("ime_pay#startPayment", {
@@ -48,11 +48,20 @@ class ImePay {
     _listenToPaymentResponse(onSuccess, onFailure);
   }
 
-  _listenToPaymentResponse(Function onSuccess, Function onError) {
+  _listenToPaymentResponse(
+      Function(ImePaySuccessResponse) onSuccess, Function(String) onError) {
     _channel.setMethodCallHandler((call) async {
       switch (call.method) {
         case "ime_pay#success":
-          onSuccess(call.arguments);
+          Map<String, dynamic> responseMap = call.arguments;
+          ImePaySuccessResponse response = ImePaySuccessResponse(
+              amount: responseMap["amount"],
+              msisdn: responseMap["msisdn"],
+              refId: responseMap["refId"],
+              responseCode: responseMap["responseCode"],
+              responseDescription: responseMap["responseDescription"],
+              transactionId: responseMap["transactionId"]);
+          onSuccess(response);
           break;
         case "ime_pay#error":
           onError(call.arguments);
@@ -65,3 +74,20 @@ class ImePay {
 }
 
 enum ImePayEnvironment { TEST, LIVE }
+
+class ImePaySuccessResponse {
+  final String responseCode,
+      responseDescription,
+      transactionId,
+      msisdn,
+      amount,
+      refId;
+
+  ImePaySuccessResponse(
+      {this.responseCode,
+      this.responseDescription,
+      this.transactionId,
+      this.msisdn,
+      this.amount,
+      this.refId});
+}
