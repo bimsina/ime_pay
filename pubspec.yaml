@@ -1,6 +1,6 @@
 name: ime_pay
 description: Flutter plugin to integrate IME Pay in your Android and iOS app.
-version: 0.0.4
+version: 0.0.4+1
 homepage: https://github.com/bimsina/ime_pay.git
 maintainer: Bibek Timsina
 
