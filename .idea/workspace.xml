@@ -1,30 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5acd8789-7c3b-4048-89d8-fb93f1ec8222" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/app/src/main/kotlin/com/bimsina/example/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/DebugProfile.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/macos/Runner/Release.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/icons/Icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/icons/Icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/web/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/bimsina/ime_pay/ImePayPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/bimsina/ime_pay/ImePayPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ime_pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ime_pay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftImePayPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftImePayPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ime_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ime_pay.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1huCzpePyKy7Jq9yTpI4ADmwqLB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -40,42 +97,42 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600960535227">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="100" y="100" width="733" height="700" key="AVDManager" timestamp="1617154424838">
+      <screen x="0" y="25" width="1440" height="829" />
     </state>
-    <state x="378" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877@0.23.1440.877" timestamp="1600960535227" />
-    <state x="118" y="123" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1600960531145">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="100" y="100" width="733" height="700" key="AVDManager/0.0.1440.900@0.0.1440.900" timestamp="1617153486851" />
+    <state x="100" y="100" width="733" height="700" key="AVDManager/0.25.1440.829@0.25.1440.829" timestamp="1617154424838" />
+    <state width="864" height="245" key="GridCell.Tab.0.bottom" timestamp="1617198666531">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="118" y="123" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.23.1440.877@0.23.1440.877" timestamp="1600960531145" />
-    <state width="991" height="230" key="GridCell.Tab.0.bottom" timestamp="1601430612524">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="864" height="203" key="GridCell.Tab.0.bottom/0.0.1440.854@0.0.1440.854" timestamp="1617196565633" />
+    <state width="864" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617198666531" />
+    <state width="864" height="245" key="GridCell.Tab.0.center" timestamp="1617198666530">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="991" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601430612524" />
-    <state width="991" height="230" key="GridCell.Tab.0.center" timestamp="1601430612523">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="864" height="203" key="GridCell.Tab.0.center/0.0.1440.854@0.0.1440.854" timestamp="1617196565630" />
+    <state width="864" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617198666530" />
+    <state width="864" height="245" key="GridCell.Tab.0.left" timestamp="1617198666530">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="991" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601430612523" />
-    <state width="991" height="230" key="GridCell.Tab.0.left" timestamp="1601430612523">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="864" height="203" key="GridCell.Tab.0.left/0.0.1440.854@0.0.1440.854" timestamp="1617196565629" />
+    <state width="864" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617198666530" />
+    <state width="864" height="245" key="GridCell.Tab.0.right" timestamp="1617198666531">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="991" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601430612523" />
-    <state width="991" height="230" key="GridCell.Tab.0.right" timestamp="1601430612523">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="864" height="203" key="GridCell.Tab.0.right/0.0.1440.854@0.0.1440.854" timestamp="1617196565632" />
+    <state width="864" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617198666531" />
+    <state x="18" y="75" key="SettingsEditor" timestamp="1617153078538">
+      <screen x="0" y="25" width="1440" height="829" />
     </state>
-    <state width="991" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601430612523" />
-    <state x="100" y="123" width="1038" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1601268450840">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="18" y="75" key="SettingsEditor/0.25.1440.829@0.25.1440.829" timestamp="1617153078538" />
+    <state x="118" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1617721018274">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="100" y="123" width="1038" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1601268450840" />
-    <state x="124" y="97" width="695" height="729" key="find.popup" timestamp="1601355158861">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="124" y="97" width="695" height="729" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1601355158861" />
-    <state x="136" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601355129732">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="136" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601355129732" />
+    <state x="118" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1617721018274" />
   </component>
 </project>

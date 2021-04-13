@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 class ImePay {
@@ -18,20 +17,20 @@ class ImePay {
   final ImePayEnvironment environment;
 
   ImePay(
-      {@required this.merchantCode,
-      @required this.merchantName,
-      @required this.module,
-      @required this.userName,
-      @required this.password,
-      @required this.refId,
-      @required this.recordingServiceUrl,
-      @required this.deliveryServiceUrl,
-      @required this.amount,
+      {required this.merchantCode,
+      required this.merchantName,
+      required this.module,
+      required this.userName,
+      required this.password,
+      required this.refId,
+      required this.recordingServiceUrl,
+      required this.deliveryServiceUrl,
+      required this.amount,
       this.environment = ImePayEnvironment.TEST});
 
   void startPayment({
-    Function(ImePaySuccessResponse) onSuccess,
-    Function(String) onFailure,
+    Function(ImePaySuccessResponse)? onSuccess,
+    Function(String?)? onFailure,
   }) async {
     _channel.invokeMethod("ime_pay#startPayment", {
       "merchant_code": merchantCode,
@@ -49,7 +48,7 @@ class ImePay {
   }
 
   _listenToPaymentResponse(
-      Function(ImePaySuccessResponse) onSuccess, Function(String) onError) {
+      Function(ImePaySuccessResponse)? onSuccess, Function(String?)? onError) {
     _channel.setMethodCallHandler((call) async {
       switch (call.method) {
         case "ime_pay#success":
@@ -61,10 +60,10 @@ class ImePay {
               responseCode: responseMap["responseCode"],
               responseDescription: responseMap["responseDescription"],
               transactionId: responseMap["transactionId"]);
-          onSuccess(response);
+          onSuccess!(response);
           break;
         case "ime_pay#error":
-          onError(call.arguments);
+          onError!(call.arguments);
           break;
         default:
       }
@@ -76,7 +75,7 @@ class ImePay {
 enum ImePayEnvironment { TEST, LIVE }
 
 class ImePaySuccessResponse {
-  final String responseCode,
+  final String? responseCode,
       responseDescription,
       transactionId,
       msisdn,

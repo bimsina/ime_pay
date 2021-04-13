@@ -60,9 +60,7 @@ class ImePayPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
         val deliveryServiceUrl = message["delivery_service_url"] as String
 
 
-        val imePayment: IMEPayment
-
-        imePayment = if (env == "LIVE") IMEPayment(activity, ENVIRONMENT.LIVE) else IMEPayment(activity, ENVIRONMENT.TEST)
+        val imePayment: IMEPayment = if (env == "LIVE") IMEPayment(activity, ENVIRONMENT.LIVE) else IMEPayment(activity, ENVIRONMENT.TEST)
 
 
         imePayment.performPaymentV1(merchantCode,
