@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('IME PAY example app'),
         ),
         body: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
               child: Text('Pay with IME'),
               onPressed: () {
                 ImePay imePay = ImePay(
