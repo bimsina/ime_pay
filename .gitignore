@@ -5,3 +5,5 @@
 .pub/
 
 build/
+ios/.symlinks/
+example/build/
