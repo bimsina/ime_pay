@@ -1,5 +1,9 @@
 ## 0.0.5
 
+    Fixed minor bugs
+
+## 0.0.5
+
     Fixed iOS Unbalanced calls to begin/end appearance transitions issue.
     Migrated to null safety
 

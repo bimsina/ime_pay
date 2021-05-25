@@ -52,7 +52,7 @@ class ImePay {
     _channel.setMethodCallHandler((call) async {
       switch (call.method) {
         case "ime_pay#success":
-          Map<String, dynamic> responseMap = call.arguments;
+          Map<String, dynamic> responseMap = Map.from(call.arguments);
           ImePaySuccessResponse response = ImePaySuccessResponse(
               amount: responseMap["amount"],
               msisdn: responseMap["msisdn"],
