@@ -32,15 +32,15 @@ Flutter plugin to integrate [ImePay](https://www.imepay.com.np/) in your app.
   );
   ```
 
-- Call `startPayment` method.
+- Call ``startPayment`` method.
 
-      ```dart
+```dart
       imePay.startPayment(onSuccess: (ImePaySuccessResponse data) {
               print(data);
           }, onFailure: (error) {
               print(error);
           });
-      ```
+```
 
   The response `ImePaySuccessResponse` consists of the following parameters
 
